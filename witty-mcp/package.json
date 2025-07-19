@@ -1,0 +1,28 @@
+{
+  "name": "@app-prodigy/witty-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run witty-mcp",
+    "witty-mcp": "tsx src/witty-mcp-server.ts",
+    "build": "tsc && chmod 755 dist/index.js"
+  },
+  "bin": "./dist/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "witty-mcp": {
+            "type": "stdio",
+            "command": "npm",
+            "cwd": "${workspaceFolder}/witty-mcp",
+            "args": [
+                "start"
+            ]
+        }
+    }
+}
